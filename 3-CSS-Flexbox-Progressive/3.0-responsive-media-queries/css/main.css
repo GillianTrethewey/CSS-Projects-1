@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+  margin: 0px;
+}
+
+.clear {
+  clear: both;
+}
+
+#wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+
+/*---------- HEADER ----------*/
+
+header {
+  height: 300px;
+  width: 100%;
+  background: LightSteelBlue;
+}
+
+
+/*---------- CONTENT AREA ----------*/
+
+.col-3 {
+  width: 100%;
+  height: 320px;
+  float: left;
+}
+#column-1 {
+  background-color: Thistle;
+}
+
+#column-2 {
+  background-color: PaleVioletRed;
+}
+
+#column-3 {
+  background-color: BurlyWood;
+}
+
+footer {
+  background-color: Thistle;
+}  
+
+
+/*---------- FOOTER ----------*/
+
+footer {
+  width: 100%;
+  height: 30px;
+}
+
+
+/*---------- TABLET ----------*/
+
+@media (min-width: 768px) {
+
+  header {
+    background-color: PapayaWhip;
+  }
+
+  #column-1 {
+    background-color: Lavender ;
+  }
+
+  #column-2 {
+    background-color: LavenderBlush;
+  }
+
+  #column-3 {
+    background-color: MistyRose;
+    width: 100%;
+  }
+
+  footer {
+    background-color: PapayaWhip;
+  } 
+
+  .col-3 {
+    width: 50%;
+  } 
+}
+
+
+/*---------- Desktops ----------*/
+@media (min-width: 1200px) {
+
+  header {
+    background-color: LightSteelBlue ;
+  }
+
+  #column-1 {
+  background-color: Thistle;
+  }
+
+  #column-2 {
+    background-color: PaleVioletRed;
+  }
+
+  #column-3 {
+    background-color: BurlyWood;
+    width: 33.3333333%;
+  }
+
+  footer {
+    background-color: LightSteelBlue;
+  } 
+
+  .col-3 {
+    width: 33.3333333%;
+  }  
+}
